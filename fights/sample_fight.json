@@ -1,0 +1,25 @@
+{
+  "enemy": {
+    "name": "Training Dummy",
+    "hp": 50,
+    "sprite": "enemy"
+  },
+  "player": {
+    "sprite": "ui/heart",
+    "color": "#ff0000"
+  },
+  "attacks": [
+    {
+      "name": "Bullet Rain",
+      "pattern": "down_rain",
+      "sprite": "bullet"
+    }
+  ],
+  "assets": {
+    "sprites": [
+      "enemy",
+      "bullet"
+    ]
+  },
+  "script": "// Advanced attack code goes here"
+}
